@@ -40,7 +40,7 @@
 	$err_msg = "";
 	$content = "";
 
-	$_SESSION['cardholders'] = array('Brett', 'Shelly', 'Mike', 'David', 'Pete', 'Kristin', 'Andrew', 'Stephen', 'Alex', 'other', 'wishlist');
+    $_SESSION['cardholders'] = array('ballard', 'larrimore', 'schutty', 'ormond', 'sailer', 'fabris', 'martin', 'wfpr', 'other', 'wishlist');
 
 	if(isset($_GET['sort_by'])) $_SESSION['sort_req_view_by'] = $_GET['sort_by'];
 	elseif (!isset($_SESSION['sort_req_view_by'])) $_SESSION['sort_req_view_by'] = "date";
@@ -103,7 +103,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Budget :: Wild Rivers Ranger District</title>
+	<title>Budget :: Siskiyou Rappel Crew</title>
 
 	<?php include("../includes/basehref.html"); ?>
 
@@ -285,7 +285,7 @@
 <div id="wrapper" style="min-height:150px;">
  <div id="banner">
         <a href="index.php"><img src="images/banner_index2.jpg" style="border:none" alt="Scroll down..." /></a>
-        <div id="banner_text_bg" style="background: url(images/banner_text_bg2.jpg) no-repeat;">Wild Rivers Ranger District - Budget Helper</div>
+        <div id="banner_text_bg" style="background: url(images/banner_text_bg2.jpg) no-repeat;">Siskiyou Rappel Crew - Budget Helper</div>
     </div>
 
  <?php include("../includes/menu.php"); ?>
